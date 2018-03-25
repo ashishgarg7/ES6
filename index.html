@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<title>Student Details Management</title>
+<h1>Student Details Management</h1>
+<form id="f01">
+		<input type="text" name="name" id="name" placeholder="Name">
+		<input type="text" name="roll no" id="rollno" placeholder="Roll No">
+		<input type="text" name="passout year" id="passyear" placeholder="PassOut Year">
+		<input type="text" name="stream" id="stream" placeholder="Stream">
+		<input type="button" name="Update" value="Update" onclick="updateRow()"><br><br>
+		<input type="button" name="Add" value="Add" onclick="addRow()">
+		<input type="button" name="Edit" value="Edit" onclick="editRow()">
+		<input type="button" name="Delete" value="Delete" onclick="delRow()"> 
+</form><br><br>
+<table align="center" width="80%" id="t01">
+	<tr>
+		<th>Checked</th>
+		<th>Name</th>
+		<th>Roll No</th>
+		<th>PassOut Year</th>
+		<th>Stream</th>
+	</tr>
+	<tr>
+		<td><form><input type="checkbox"></form></td>
+		<td>Ashish Garg</td>
+		<td>1510991128</td>
+		<td>2019</td>
+		<td>CSE</td>
+	</tr>
+</table>
+</body>
+</html>	
+		
